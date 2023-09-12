@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./desc.css">
+    <title>Desconto</title>
+  </head>
+  <body>
+    <div class="row">
+        <div class="container"> 
+            <div class="jumbotron" id="consulta">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12"> <!-- Conteúdo -->
+            <h1>Parabéns você GANHOU 25% na sua primeira consulta!</h1>
+            <p><h3>Agora você pode usar 25% de desconto em uma consulta online ou presencial, esse desconto valerá somente por 3 meses,
+              então fique atento com as datas para NÃO perder esse desconto na sua primeira consulta!</p>
+            </h3>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            
+            <h1>Consulta Presencial</h1>
+            <ul>
+              <li><h5>Pré Consulta</h5>Agende sua consulta via WhatsApp e avançe para a próxima etapa.</li>
+              <li><h5>Conversa Presencial</h5>Conversaremos sobre seus objetivos e sua rotina.</li>
+              <li><h5>Análise Corporal</h5>Mediremos peso, altura, circunferências e % de gordura.</li>
+              <li><h5>Plano de Ação</h5>Montaremos sua dieta e você terá o seu plano alimentar. </li>
+            </ul>
+            <p>Para mais informações <a href="./presencial.html">clique aqui</a></p>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+           
+            <h1>Consulta Online</h1>
+            <ul>
+              <li><h5>Pré Consulta</h5>Agende sua consulta via WhatsApp e avançe para a próxima etapa.</li>
+              <li><h5>Análise de Perfil</h5>Preencha formulário com objetivos, rotina de treino e alimentar.</li>
+              <li><h5>Medidas e Fotos</h5>Tire suas medidas e fotos de acordo com minhas orientações.</li>
+              <li><h5>Conversa Online</h5>Juntos montaremos sua dieta e você receberá seu plano alimentar.</li>
+            </ul>
+            <p>Para mais informações <a href="./online.html">clique aqui</a></p>
+          </div>
+          <div class="row espaco-superior">
+            <div class="col-md-12 col-sm-12 col-lg-12">
+              <h4>Agora você pode agendar sua consulta, pode saber mais sobre elas e até planejar um orçamento digitando seus dados e detalhando o que deseja.<p></p></h4>
+                <a href="https://contate.me/teamlz" class="btn btn-outline-warning my-2 my-sm-0" type="submit" target="_blank">Agendar Consulta</a>
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#modalExemplo">Informações da consulta</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Consulta online</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form action="">
+                          <img src="logomarca.jpg" width="50" height="50" class="d-inline-block align-top" alt="">LZ Team</a>
+                        </form>
+                        <h4>Preço de R$300 por consulta</h4>
+                        <h4>O tempo de consultae podem ser de 30min até 1h30min</h4>
+                        <h4>Qualquer outra informação como ou dúvida a respeito dos dias de atendimento, horários de atendimento ou quaisquer
+                          informação adicionais referentes ao serviço é so entrar em contato em nosso <a href="https://contate.me/teamlz" target="_blank">WhatsApp</a></h4>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Botão para acionar modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo1">
+                  Faça um orçamento
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modalExemplo1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Digite seus dados!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <h2>Após respoder os dados corretamente mandaremos o orçamento em até 1 semana!</h2>
+                          <label for="exampleFormControlInput1">Nome completo</label>
+                          <input class="form-control form-control-lg" type="text" required maxlength="50">
+                          <div class="form-group">
+                            <label for="exampleFormControlInput1">Endereço de email</label>
+                            <input type="email" class="form-control" required maxlength="50" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlInput1">Telefone</label>
+                            <input class="form-control form-control-lg" type="text" required maxlength="14" placeholder="(49)99999-9999">
+                            <label for="exampleFormControlInput1">Endereço</label>
+                            <input class="form-control form-control-lg" type="text" required maxlength="100" placeholder="Bairro, Rua e numero-complemento">
+                            <label for="exampleFormControlInput1">CEP</label>
+                            <input class="form-control form-control-lg" type="text" required maxlength="10" placeholder="89.730.803">
+                            <label for="exampleFormControlInput1">Cidade-UF</label>
+                            <input class="form-control form-control-lg" type="text" required maxlength="50" placeholder="Chapecó-SC">
+                            <label for="exampleFormControlInput1">Data para consulta</label>
+                            <input class="form-control form-control-lg" type="text" required maxlength="10" placeholder="00/00/0000">
+                            <label for="exampleFormControlInput1">Horário para consulta</label>
+                            <input class="form-control form-control-lg" type="text" required maxlength="10" placeholder="Manha/Tarde">
+                            <label for="exampleFormControlInput1">Mensagem</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" maxlength="150"></textarea>
+                            <a href="desconto.html" class="btn btn-danger my-2 my-sm-0" type="submit">Enviar</a>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h1></h1><p>OBS: Seu orçamento já está com os 25% de desconto</p>
+            </div>
+          </div>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Jg2KowI5dRs"></iframe>
+              </div>
+            <div class="row espaco">
+              <a href="index.html" class="btn btn-danger">Voltar</a>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
